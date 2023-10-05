@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2 {
+	font-family: arial;
+	color: white;
+	text-shadow: white 0 0 0.3em, 1px 1px black, -1px -1px black; 
+	font-size: 1.7em;
+}
+
+#logo {
+	float: left;
+	height: 150px;
+	background: transparent;
+}
+
+article {
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p{
+	color: white;
+	font-family: arial;
+	font-size: 1.2em;
+}
+
+body {
+	background-image: url(pasy_tło_1.jpg)
+}
+
+div{
+	background-color: #A9A9A9;
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 50px;
+	border-color: #A9A9A9;
+	box-shadow: 0 0 20px black;
+}
+
+#szary {
+	background-color: grey;
+	box-shadow: 0 0 15px 10px black;
+	height: 150px;
+	padding: 0;
+	border-radius: 0;
+	border-width: 0px;
+}
+
+article img {
+	width: 450px;
+	border-radius: 30px;
+	box-shadow: 0 0 20px black;
+}
+
+a {
+	font-size: 0.8em;
+}
+
