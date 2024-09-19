@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela_własna</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 3px solid #0066ff;
+			font-family: Arial, sans-serif;
+            padding: 6px;
+			width: 100px;
+        }
+        th {
+            background-color: yellow;
+            font-weight: bold;
+			text-align: left;
+			color: #0066ff;
+        }
+        .fiolet {
+            background-color: purple;
+            color: white;
+			text-align: right;
+        }
+        .ziel {
+            background-color: lightgreen;
+        }
+        .czer {
+            background-color: red;
+        }
+		.podkr {
+			text-decoration: underline;
+			text-align: right;
+		}
+        .pochyl {
+            font-style: italic;
+        }
+        .razem {
+			background-color: orange;
+            text-align: right;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+	<img src="tabela_excel.png" alt="tabela" width="700px">
+	</br>
+	</br>
+    <table>
+        <tr>
+            <th>Nr.</th>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Wiek</th>
+            <th>Klasa</th>
+        </tr>
+        <tr>
+            <td class="fiolet">1</td>
+            <td class="pochyl">Bonifacy</td>
+            <td class="czer">Krajewski</td>
+            <td class="podkr">32</td>
+            <td class="ziel">1ZX</td>
+        </tr>
+        <tr>
+            <td class="fiolet">2</td>
+            <td class="pochyl">Euzebiusz</td>
+            <td class="czer">Raczek</td>
+            <td class="podkr">33</td>
+            <td class="ziel">1ZX</td>
+        </tr>
+        <tr>
+            <td class="fiolet">3</td>
+            <td class="pochyl">Gotfryd</td>
+            <td class="czer">Berez</td>
+            <td class="podkr">31</td>
+            <td class="ziel">1ZX</td>
+        </tr>
+        <tr>
+            <td class="fiolet">4</td>
+            <td class="pochyl">Klaudiusz</td>
+            <td class="czer">Karaś</td>
+            <td class="podkr">35</td>
+            <td class="ziel">1ZX</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="razem"><b>razem:</b> 4 osoby</td>
+        </tr>
+    </table>
+</body>
+</html>
